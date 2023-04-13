@@ -19,6 +19,7 @@ public class ProdutoController {
 	private final ProdutoRepository produtos;
 	private final AvaliacaoClient avaliacoes;
 
+	//	test
 	public ProdutoController(ProdutoRepository produtos, AvaliacaoClient avaliacoes) {
 		this.produtos = produtos;
 		this.avaliacoes = avaliacoes;
